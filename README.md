@@ -1,6 +1,12 @@
 # Godot AI Agent Rules (Free Mini)
 Three Cursor rules and an AGENTS.md that stop the most common AI mistakes in Godot 4: Godot 3 syntax (`yield`, `export`, `onready`, `KinematicBody2D`, `instance()`, old `connect()`), made-up APIs, and missing parse checks.
 
+## Quick start
+1. `git clone https://github.com/scoyoc5/godot-ai-agent-rules`
+2. Copy `.cursor/` and `AGENTS.md` next to your `project.godot`.
+3. Ask your agent: *"Make the player jump."* It should use `await`, `@export` and `CharacterBody2D`, never Godot 3 syntax.
+4. Verify: `godot --headless --check-only --script res://player.gd`
+
 **Install:** copy `.cursor/` and `AGENTS.md` into your Godot project root, next to `project.godot`. For ChatGPT or Claude chat, paste `PRIMING_HEADER.md` at the start of the conversation.
 
 **Check your scripts:** `godot --headless --check-only --script res://player.gd` parses a script without opening the editor.
