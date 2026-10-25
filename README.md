@@ -18,7 +18,7 @@ Three Cursor rules and an AGENTS.md that stop the most common AI mistakes in God
 
 **Check your scripts:** `godot --headless --check-only --script res://player.gd` parses a script without opening the editor.
 
-**Want more?** The full **Godot AI Agent Kit** adds typed GDScript, signals/Callables, node paths & %unique names, resources/saving, C# and test rules, a CLAUDE.md, a phased planning workflow with templates, 20 task prompts (controllers, FSM, save/load, inventory, dialogue, UI...), a whole-project headless check script, and tested samples. [Get it on itch.io](https://johnvanscoyoc.itch.io/godot-ai-agent-kit-rules-prompts-workflow-for-cursor-and-claude-code)
+**Want more? 🎃 25% off in the itch.io Halloween Sale (Oct 25 – Nov 4).** The full **Godot AI Agent Kit** adds typed GDScript, signals/Callables, node paths & %unique names, resources/saving, C# and test rules, a CLAUDE.md, a phased planning workflow with templates, 20 task prompts (controllers, FSM, save/load, inventory, dialogue, UI...), a whole-project headless check script, and tested samples. [Get it on itch.io](https://johnvanscoyoc.itch.io/godot-ai-agent-kit-rules-prompts-workflow-for-cursor-and-claude-code)
 
 License: MIT. Not affiliated with the Godot Foundation.
 
